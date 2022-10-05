@@ -1,51 +1,10 @@
-<!doctype html>
-<html lang="en">
+<?php include('admin website/adminheader.php');  ?>
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
-</head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">FitNerd</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/Adminboot.html">Home<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/adminmem.html">Members</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/">Trainer</a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="/ ">Payment</a>
-                </li>
-            </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
-                </form>
-                <div class="mx-2">
-                    <button class="btn  btn-danger" data-toggle="modal" data-target="#loginModal">Login</button>
-                    <button class="btn btn-danger" data-toggle="modal" data-target="#signupModal">Sign-Up</button>
-                </div>
-            </div>
-        </nav>
-    </h8>
-    <!-- SignupModal -->
+
+<?php include('admin website/adminnavbar.php'); ?>
+<!-- SignupModal -->
         <div class="container-fluid">
             
             <div class="col-lg-12">
@@ -147,6 +106,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+ <?php include('admin website/adminfooter.php');  ?>
+
 </body>
 
 </html>

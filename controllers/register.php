@@ -1,7 +1,5 @@
 <?php
 
-require_once('connection.php');
-
 if($_SERVER['REQUEST_METHOD'] != 'POST'){
     echo 'Bad Request Type';
     die();
@@ -36,10 +34,5 @@ if($password !== $confirm_password){
 echo 'All Checked Now Insert';
 
 
-$conn = new connection();
-
-
-
-var_dump($conn->get_connection_details());
 
 ?>
